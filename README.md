@@ -20,4 +20,4 @@ RE-05 - Compreender e aplicar os conceitos de cardinalidade (1:1, 1:N, N:M).
 https://cmapscloud.ihmc.us:443/rid=21Y6WV9WZ-11QB9RR-CF72V7
 
 ### Modelagem Instrucional - Trabalhando ...
-https://lucid.app/lucidchart/f3f0f771-1b06-4656-84ff-fe7fe7e47fdc/edit?viewport_loc=-544%2C-372%2C5372%2C2448%2C0_0&invitationId=inv_812011b9-3478-4f18-a62e-454398734d56
+https://lucid.app/lucidchart/f3f0f771-1b06-4656-84ff-fe7fe7e47fdc/edit?viewport_loc=-738%2C-173%2C6092%2C2776%2C0_0&invitationId=inv_812011b9-3478-4f18-a62e-454398734d56
