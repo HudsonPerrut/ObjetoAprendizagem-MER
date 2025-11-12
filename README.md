@@ -1,4 +1,4 @@
-# ObjetoAprendizem-MER
+# ObjetoAprendizagem-MER
 
 ### Descrição do OA e Público-Alvo
 A ideia do objeto de aprendizagem é um ambiente virtual interativo onde alunos da área de computação aprendam os conceitos básicos da modelagem de dados (Modelo Entidade-Relacionamento - MER / Diagrama Entidade Relacionamento - DER) através da construção de um esquema para um problema do mundo real.
