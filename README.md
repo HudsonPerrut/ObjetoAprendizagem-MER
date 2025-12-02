@@ -17,7 +17,7 @@ RE-04 - Definir chaves primárias e estrangeiras.
 RE-05 - Compreender e aplicar os conceitos de cardinalidade (1:1, 1:N, N:M).
 
 ###  Modelagem Conceitual
-![ModeloConceitualHudson (2)](https://github.com/user-attachments/assets/03503b82-d702-4689-8e8e-128ea1ba524d)
+![Modelo_Entidade_Relacionamento_(MER)_para_abstrair_problemas_do_mundo_real](https://github.com/user-attachments/assets/f48936b8-9955-4093-ad4a-9fe5893b515e)
 
 https://cmapscloud.ihmc.us:443/rid=21Y6WV9WZ-11QB9RR-CF72V7
 
