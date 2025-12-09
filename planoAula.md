@@ -37,3 +37,7 @@ Conteúdo apresentado na Aula 1 sobre: Introdução a Banco de Dados sobre:
 ## 6. Referências
 
 - 6.1. HEUSER, Carlos Alberto. Projeto de Banco de Dados. 6. ed. Porto Alegre: Bookman, 2009.
+
+## 6. Link do Video
+-https://www.youtube.com/watch?v=ySbfH_3c5xA
+
