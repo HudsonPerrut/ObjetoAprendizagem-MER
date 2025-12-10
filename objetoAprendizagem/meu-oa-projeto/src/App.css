@@ -1,0 +1,137 @@
+/* src/App.css */
+:root {
+  --bg-color: #f8fafc;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --card-bg: #ffffff;
+  --primary-blue: #2563eb;
+  --hover-blue: #1d4ed8;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 600px;
+}
+
+.icon-wrapper {
+  display: inline-flex;
+  padding: 12px;
+  background-color: var(--primary-blue);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Grid Responsivo dos Cards */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsividade automática */
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.card-icon {
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge {
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Cores específicas para dificuldade */
+.easy { background: #dcfce7; color: #15803d; } /* Verde */
+.medium { background: #fef9c3; color: #854d0e; } /* Amarelo */
+.hard { background: #fee2e2; color: #b91c1c; } /* Vermelho */
+
+.card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.card p {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  flex-grow: 1; /* Empurra o botão para baixo */
+}
+
+.btn-start {
+  background-color: #0f172a;
+  color: white;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background-color 0.2s;
+}
+
+.btn-start:hover {
+  background-color: var(--primary-blue);
+}

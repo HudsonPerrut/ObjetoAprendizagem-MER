@@ -1,0 +1,254 @@
+/* src/Editor.css */
+.editor-container {
+    display: flex;
+    height: 100vh; /* Ocupa a altura total da tela */
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  /* Barra Lateral (Descrição do Problema) */
+  .sidebar {
+    width: 350px;
+    background-color: #fff;
+    border-right: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+    z-index: 10;
+  }
+  
+  .sidebar-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    background-color: #f8fafc;
+  }
+  
+  .btn-back {
+    background: none;
+    border: none;
+    color: #64748b;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+  
+  .btn-back:hover {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+  
+  .sidebar-content {
+    padding: 1.5rem;
+    overflow-y: auto; /* Permite rolar se a descrição for longa */
+  }
+  
+  .difficulty-tag {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  /* Área do Diagrama (Placeholder) */
+  .canvas-area {
+    flex-grow: 1;
+    height: 100%; /* Garante que ocupe a altura toda */
+    width: 100%;  /* Garante que ocupe a largura toda */
+  }
+  
+  .placeholder-text {
+    text-align: center;
+    color: #94a3b8;
+  }
+
+  /* ... código anterior ... */
+
+/* Estilo do Nó Personalizado */
+.table-node-container {
+    background: white;
+    border: 1px solid #94a3b8;
+    border-radius: 6px;
+    min-width: 150px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Para o cabeçalho não sair da borda arredondada */
+    font-family: monospace; /* Fonte monoespaçada fica melhor para dados */
+  }
+  
+  .table-node-header {
+    background: #f1f5f9; /* Cinza claro */
+    border-bottom: 1px solid #cbd5e1;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #0f172a;
+    text-align: center;
+  }
+  
+  .table-node-body {
+    padding: 0;
+    background: #fff;
+  }
+  
+  .table-column-row {
+    padding: 6px 12px;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 12px;
+    color: #334155;
+  }
+  
+  .table-column-row:last-child {
+    border-bottom: none;
+  }
+  
+  .table-column-placeholder {
+    padding: 10px;
+    text-align: center;
+    font-size: 11px;
+    color: #94a3b8;
+    font-style: italic;
+  }
+  
+  /* Personalizando as bolinhas de conexão (Handles) */
+  .handle-dot {
+    width: 10px !important;
+    height: 10px !important;
+    background: #3b82f6 !important; /* Azul */
+  }
+
+  /* ... código anterior ... */
+
+/* MODAL STYLES */
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Fundo escuro transparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Fica por cima de tudo */
+    backdrop-filter: blur(2px);
+  }
+  
+  .modal-content {
+    background: white;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: slideUp 0.2s ease-out;
+  }
+  
+  @keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  .modal-header {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8fafc;
+  }
+  
+  .modal-header h3 { margin: 0; font-size: 1.1rem; color: #1e293b; }
+  
+  .modal-body { padding: 1.5rem; }
+  
+  .form-group { margin-bottom: 1.5rem; }
+  .form-group label { display: block; margin-bottom: 0.5rem; font-weight: 600; font-size: 0.9rem; color: #475569; }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    box-sizing: border-box; /* Garante que o padding não estoure a largura */
+  }
+  .input-field:focus { outline: 2px solid #3b82f6; border-color: transparent; }
+  
+  .columns-list {
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .column-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background: #fff;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 0.9rem;
+  }
+  
+  .add-column-box { display: flex; gap: 8px; }
+  
+  .btn-icon { background: none; border: none; cursor: pointer; color: #64748b; }
+  .btn-delete { background: #fee2e2; border: none; border-radius: 4px; padding: 4px; color: #dc2626; cursor: pointer; display: flex; }
+  .btn-add { background: #3b82f6; color: white; border: none; border-radius: 6px; width: 40px; cursor: pointer; display: flex; alignItems: center; justifyContent: center; }
+  
+  .modal-footer {
+    padding: 1rem 1.5rem;
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  
+  .btn-cancel { background: white; border: 1px solid #cbd5e1; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; }
+  .btn-save { background: #16a34a; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; display: flex; gap: 8px; align-items: center; }
+
+  /* src/Editor.css */
+
+/* ... outros estilos ... */
+
+.btn-send-email {
+    width: 100%;
+    padding: 12px;
+    background-color: #16a34a; /* Verde Sucesso */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px -1px rgba(22, 163, 74, 0.4);
+  }
+  
+  .btn-send-email:hover {
+    background-color: #15803d; /* Verde mais escuro no hover */
+    transform: translateY(-1px);
+  }
+  
+  .btn-send-email:active {
+    transform: translateY(0);
+  }
+  
+  /* Estado de desabilitado (enquanto envia) */
+  .btn-send-email:disabled,
+  .btn-send-email.sending {
+    background-color: #bbf7d0;
+    color: #14532d;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
