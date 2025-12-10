@@ -29,25 +29,29 @@ https://lucid.app/lucidchart/f3f0f771-1b06-4656-84ff-fe7fe7e47fdc/edit?viewport_
 ### Aula sobre o assunto
 https://www.youtube.com/watch?v=ySbfH_3c5xA
 
-🚀 Como Rodar o Projeto
+# 🚀 Como Rodar o Projeto
 
-Como a pasta node_modules não é enviada para o Git (por ser muito pesada), siga os passos abaixo para instalar as dependências e iniciar o sistema:
+Como a pasta `node_modules` não é enviada para o Git, siga os passos abaixo para instalar as dependências e iniciar o sistema:
 
-Abra o terminal na pasta raiz do projeto (onde este arquivo README.md está localizado).
+1.  Abra o terminal na pasta raiz do projeto (onde este arquivo `README.md` está localizado).
 
-Instale as dependências:
-Execute o seguinte comando para baixar as bibliotecas necessárias (React, React Flow, etc.):
+2.  **Instale as dependências:**
+    Execute o seguinte comando para baixar as bibliotecas necessárias (React, React Flow, etc.):
 
-npm install
+    ```bash
+    npm install
+    ```
 
+3.  **Execute o projeto:**
+    Após a conclusão da instalação, inicie o servidor de desenvolvimento com:
 
-Execute o projeto:
-Após a conclusão da instalação, inicie o servidor de desenvolvimento com:
+    ```bash
+    npm run dev
+    ```
 
-npm run dev
+4.  **Acesse no navegador:**
+    O terminal exibirá um link local, geralmente:
 
-
-Acesse no navegador:
-O terminal exibirá um link local, geralmente:
-
-http://localhost:5173/
+    ```
+    http://localhost:5173/
+    ```
