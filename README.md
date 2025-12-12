@@ -29,7 +29,7 @@ https://lucid.app/lucidchart/f3f0f771-1b06-4656-84ff-fe7fe7e47fdc/edit?viewport_
 ### Aula sobre o assunto
 https://www.youtube.com/watch?v=ySbfH_3c5xA
 
-# 🚀 Como Rodar o Projeto
+# 🚀 Como Executar o Objeto de Aprendizagem
 
 Como a pasta `node_modules` não é enviada para o Git, siga os passos abaixo para instalar as dependências e iniciar o sistema:
 
