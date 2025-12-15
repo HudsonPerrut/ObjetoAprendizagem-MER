@@ -1,0 +1,119 @@
+{
+  "lom": {
+    "general": {
+      "identifier": {
+        "catalog": "URI",
+        "entry": "http://seuprojeto.com/mer-der"
+      },
+      "title": {
+        "string": "Modelagem de Dados (MER/DER) - Ferramenta de Ensino Interativa",
+        "language": "pt"
+      },
+      "language": [
+        "pt-BR"
+      ],
+      "description": {
+        "string": "Objeto de Aprendizagem interativo para auxiliar estudantes no aprendizado de Modelagem de Dados, permitindo a criação visual de Diagramas Entidade-Relacionamento (DER) utilizando a notação Pé de Galinha (Crow's Foot). O projeto inclui módulos de gamificação e cenários de mundo real.",
+        "language": "pt"
+      },
+      "keyword": [
+        "Modelagem de Dados",
+        "DER",
+        "Pé de Galinha",
+        "Banco de Dados",
+        "Objeto de Aprendizagem"
+      ],
+      "structure": {
+        "source": "LOMv1.0",
+        "value": "atomic"
+      },
+      "aggregationlevel": {
+        "source": "LOMv1.0",
+        "value": "4"
+      }
+    },
+    "lifecycle": {
+      "version": {
+        "string": "1.0"
+      },
+      "status": {
+        "source": "LOMv1.0",
+        "value": "final"
+      },
+      "contribute": [
+        {
+          "role": {
+            "source": "LOMv1.0",
+            "value": "creator"
+          },
+          "entity": "FN, GN; Nome do Autor",
+          "date": {
+            "dateTime": "2025-12-15"
+          }
+        }
+      ]
+    },
+    "technical": {
+      "format": [
+        "text/html",
+        "application/javascript"
+      ],
+      "size": "20 MB",
+      "location": [
+        "http://seuprojeto.com/index.html"
+      ],
+      "otherplatformrequirements": {
+        "string": "Navegador web moderno (Chrome, Firefox, Edge) com suporte a JavaScript e CSS3. Resolução mínima recomendada: 1280x720."
+      }
+    },
+    "educational": {
+      "interactivitytype": {
+        "source": "LOMv1.0",
+        "value": "active"
+      },
+      "learningresourcetype": [
+        {
+          "source": "LOMv1.0",
+          "value": "tool"
+        },
+        {
+          "source": "LOMv1.0",
+          "value": "simulation"
+        }
+      ],
+      "interactivitylevel": {
+        "source": "LOMv1.0",
+        "value": "high"
+      },
+      "context": [
+        {
+          "source": "LOMv1.0",
+          "value": "higher education"
+        }
+      ],
+      "typicalagerange": {
+        "string": "18 e acima"
+      },
+      "difficulty": {
+        "source": "LOMv1.0",
+        "value": "medium"
+      },
+      "language": [
+        "pt"
+      ]
+    },
+    "rights": {
+      "cost": {
+        "source": "LOMv1.0",
+        "value": "no"
+      },
+      "copyrightandotherrestrictions": {
+        "source": "LOMv1.0",
+        "value": "license"
+      },
+      "description": {
+        "string": "Licenciado sob a Licença MIT. Consulte o arquivo LICENSE na raiz do projeto para detalhes sobre o uso e modificação."
+      }
+    }
+  }
+}
