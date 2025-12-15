@@ -65,3 +65,8 @@ Este projeto está licenciado sob a Licença **MIT** - consulte o arquivo [LICEN
 ---
 
 Desenvolvido para fins acadêmicos.
+
+
+## Metadados
+
+Metadados estão disponíveis no arquivo [metadata](metadata)
