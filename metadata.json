@@ -3,7 +3,7 @@
     "general": {
       "identifier": {
         "catalog": "URI",
-        "entry": "http://seuprojeto.com/mer-der"
+        "entry": "https://github.com/HudsonPerrut/ObjetoAprendizagem-MER"
       },
       "title": {
         "string": "Modelagem de Dados (MER/DER) - Ferramenta de Ensino Interativa",
@@ -44,9 +44,9 @@
         {
           "role": {
             "source": "LOMv1.0",
-            "value": "creator"
+            "value": "Hudson Taylor Perrut Cassim"
           },
-          "entity": "FN, GN; Nome do Autor",
+          "entity": "FN, GN; Hudson Taylor Perrut Cassim",
           "date": {
             "dateTime": "2025-12-15"
           }
