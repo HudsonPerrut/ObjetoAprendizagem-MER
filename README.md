@@ -49,9 +49,19 @@ Como a pasta `node_modules` não é enviada para o Git, siga os passos abaixo pa
     npm run dev
     ```
 
+    ---
+
 4.  **Acesse no navegador:**
     O terminal exibirá um link local, geralmente:
 
     ```
     http://localhost:5173/
     ```
+
+## Licença
+
+Este projeto está licenciado sob a Licença **MIT** - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Desenvolvido para fins acadêmicos.
